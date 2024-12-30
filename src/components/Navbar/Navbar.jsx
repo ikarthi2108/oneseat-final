@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import "./Navbar.css";
 import logo from "../../assets/logo.png";
+import wayed from "../../assets/wayed.png"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 
@@ -29,7 +30,7 @@ const Navbar = ({ onOpenModal }) => {
 
   return (
     <nav className={`container-nav ${sticky ? "dark-nav" : ""}`}>
-      <img src={logo} alt="Logo" className="logo-nav" />
+      <img src={wayed} alt="Logo" className="logo-nav" />
       <ul
         className={`mobile-menu ${
           mobileMenu ? "show-mobile-menu" : "hide-mobile-menu"

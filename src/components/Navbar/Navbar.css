@@ -18,8 +18,8 @@ nav {
 }
 
 .logo-nav {
-  width: 180px;
-  margin-inline-start: 5%;
+  width: 100px;
+  /* margin-inline-start: 5%; */
 }
 
 nav ul li {
